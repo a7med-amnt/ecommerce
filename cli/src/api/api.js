@@ -5,5 +5,4 @@ export default createApi({
   reducerPath: "api",
     baseQuery: fetchBaseQuery(fetchBaseQueryConfig),
     endpoints: () => ({}),
-    tagTypes: ["owner","projects","project"]
 });

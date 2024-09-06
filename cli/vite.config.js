@@ -26,11 +26,11 @@ export default defineConfig({
             "#app": path.resolve(__dirname, "src", "app"),
             "#layouts": path.resolve(__dirname, "src", "layouts"),
             "#routers": path.resolve(__dirname, "src", "routers"),
-            "#components": path.resolve(__dirname, "src", "components"),
+            "#comps": path.resolve(__dirname, "src", "components"),
             "#i18n": path.resolve(__dirname, "src", "i18n"),
             "#configs": path.resolve(__dirname, "src", "configs"),
             "#utils": path.resolve(__dirname, "src", "utils"),
-            "#constants": path.resolve(__dirname, "src", "constants"),
+            "#consts": path.resolve(__dirname, "src", "constants"),
             "#hooks": path.resolve(__dirname, "src", "hooks"),
             "#store": path.resolve(__dirname, "src", "store"),
             "#api": path.resolve(__dirname, "src", "api")

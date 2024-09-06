@@ -1,4 +1,4 @@
-import { apiv1Url } from "#constants/api";
+import { apiv1Url } from "#consts/api";
 
 export const fetchBaseQueryConfig = {
     baseUrl: apiv1Url,
