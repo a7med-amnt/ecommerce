@@ -5,14 +5,18 @@
     "main": "main.js",
     "type": "module",
     "imports": {
-        "#controllers/*": "./controllers/*",
+        "#ctrl/*": "./controllers/*",
         "#middlewares/*": "./middlewares/*",
         "#models/*": "./models/*",
         "#routers/*": "./routers/*",
         "#configs/*": "./configs/*",
         "#schemas/*": "./schemas/*",
-        "#constants/*": "./constants/*",
-        "#utils/*": "./utils/*"
+        "#consts/*": "./constants/*",
+        "#utils/*": "./utils/*",
+        "#eah": "express-async-handler",
+        "#mgs": "mongoose",
+        "#exp": "express",
+        "#jwt": "jsonwebtoken"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
