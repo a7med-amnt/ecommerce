@@ -18,6 +18,11 @@ let userSchema = new mgs.Schema(
             required: true,
             trim: true,
             unique: true
+        },
+        isAdmin: {
+            type:Boolean,
+            default:false,
+            required:true
         }
     },
     { timestamps: true }

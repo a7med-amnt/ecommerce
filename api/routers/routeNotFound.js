@@ -1,6 +1,5 @@
 import express from "express";
-import routeNotFound from "#ctrl/routeNotFound.js";
-import errorHandler from "#utils/error.js";
+import routeNotFound from "#ctrls/routeNotFound.js";
 
 const router = express.Router();
 

@@ -1,5 +1,5 @@
 import express from "express";
-import welcome from "#ctrl/welcome.js";
+import welcome from "#ctrls/welcome.js";
 
 const router = express.Router();
 

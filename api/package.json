@@ -5,7 +5,7 @@
     "main": "main.js",
     "type": "module",
     "imports": {
-        "#ctrl/*": "./controllers/*",
+        "#ctrls/*": "./controllers/*",
         "#middlewares/*": "./middlewares/*",
         "#models/*": "./models/*",
         "#routers/*": "./routers/*",
